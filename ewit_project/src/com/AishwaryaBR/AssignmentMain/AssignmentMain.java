@@ -16,27 +16,20 @@ public class AssignmentMain {
         System.out.println(manager);
         System.out.println(developer);
 
-    
-
         System.out.println("\n--- Performing Operations with EmployeeUtilities ---");
         System.out.println("\n*** Manager Raise ***");
         EmployeeUtilities.giveRaise(manager, 5000.00);
 
-       
         System.out.println("\n*** Developer Bonus ***");
         EmployeeUtilities.calculateBonus(developer, 0.05); // 5% bonus
 
         
         developer.setProgrammingLanguage("Python");
-
         System.out.println("\n--- Final Employee Details ---");
         System.out.println(manager);
         System.out.println(developer);
 
-        
-        System.out.println("\nManager's new salary (via public getter): $" + String.format("%.2f", manager.getSalary()));
-
-        
+        System.out.println("\nManager's new salary (via public getter): $" + String.format("%.2f", manager.getSalary()));       
     }
 }
 		

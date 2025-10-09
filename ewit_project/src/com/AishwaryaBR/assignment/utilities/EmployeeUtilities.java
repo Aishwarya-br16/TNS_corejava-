@@ -5,7 +5,6 @@ import com.AishwaryaBR.assignment.employees.Employee;
 public class EmployeeUtilities {
 	private EmployeeUtilities() {
 	}
-	
 	public static double calculateBonus(Employee employee, double percentage) {
 	        if (employee == null || percentage < 0) {
 	            return 0.0;
@@ -14,8 +13,7 @@ public class EmployeeUtilities {
 	        System.out.println(employee.getName() + " is receiving a bonus of $" + String.format("%.2f", bonus));
 	        return bonus;
 	}
-	 
-	  public static void giveRaise(Employee employee, double amount) {
+	 public static void giveRaise(Employee employee, double amount) {
 	        if (employee != null && amount > 0) {
 	            double currentSalary = employee.getSalary();
 	            employee.setSalary(currentSalary + amount); // Using the public setter
