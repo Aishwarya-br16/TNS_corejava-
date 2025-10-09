@@ -10,5 +10,4 @@ public class First_prgm {
 		System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 
 	}
-
 }
