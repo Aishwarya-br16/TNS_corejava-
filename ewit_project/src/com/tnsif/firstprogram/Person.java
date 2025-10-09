@@ -32,7 +32,5 @@ public class Person {
 	
 	void display() {
 		System.out.println(personName +" "+ personAge +" "+ personCity);
-		
 	}
-
 }

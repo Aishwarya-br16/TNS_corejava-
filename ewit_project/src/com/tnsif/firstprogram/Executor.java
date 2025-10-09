@@ -13,7 +13,6 @@ public class Executor {
 		Person p3 = new Person(); 		
 		p3.display(); 		 	
 		}
-		
-	}
+ }
 
 
