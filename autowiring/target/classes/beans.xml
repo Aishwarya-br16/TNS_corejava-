@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+                        
+       <!-- <bean id="humanHeart" class="com.tnsif.autowriting.Heart"/>    
+       <bean id="human" class="com.tnsif.autowriting.Human">
+           <property name="heart" ref="humanHeart"/>
+       </bean>  -->
+       
+       <!-- <bean id="heart" class="com.tnsif.autowiring.Heart"/>    
+       <bean id="human" class="com.tnsif.autowiring.Human" autowire="byName"/> -->
+       
+       <!-- <bean id="heart" class="com.tnsif.autowiring.Heart"/>    
+       <bean id="human" class="com.tnsif.autowiring.Human" autowire="constructor"/> -->
+       
+       <bean id="heart" class="com.tnsif.autowiring.Heart"/>    
+       <bean id="human" class="com.tnsif.autowiring.Human" autowire="byName"/>
+</beans>
