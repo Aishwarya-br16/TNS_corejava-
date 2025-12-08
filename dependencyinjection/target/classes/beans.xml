@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+           
+       <!-- By Setter Injection
+       <bean id="student" class="com.tnsif.dependencyinjection.Student">
+          <property name="id" value="100"/>
+          <property name="name" value="Xavier"/>
+       </bean>  
+       -->
+       
+       <!-- By Constructor Injection -->
+       <bean id="student" class="com.tnsif.dependencyinjection.Student">
+          <constructor-arg value="101"/>
+          <constructor-arg value="Alex"/>
+       </bean>
+       
+</beans>
